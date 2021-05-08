@@ -13,6 +13,7 @@ export class ActivitiesService {
       {
         id: 1,
         title: 'Postural Training',
+        image: 'https://picsum.photos/400/200',
         date: new Date().toISOString().substring(0, 10),
         timeStart: '11:10',
         timeEnd: '11:40',
@@ -24,6 +25,7 @@ export class ActivitiesService {
       {
         id: 2,
         title: 'Postural Training',
+        image: 'https://picsum.photos/400/200',
         date: new Date().toISOString().substring(0, 10),
         timeStart: '11:10',
         timeEnd: '11:40',
@@ -35,6 +37,7 @@ export class ActivitiesService {
       {
         id: 3,
         title: 'Postural Training',
+        image: 'https://picsum.photos/400/200',
         date: new Date().toISOString().substring(0, 10),
         timeStart: '11:10',
         timeEnd: '11:40',

@@ -3,6 +3,7 @@ export type ActivityStatus = 'accepted' | 'pending';
 export interface Activity {
   id: number;
   title: string;
+  image: string;
   date: string;
   timeStart: string;
   timeEnd: string;
