@@ -1,0 +1,38 @@
+<div class="next-activity-card mat-elevation-z6 overflow-hidden">
+  <div class="activity-container">
+    <div class="activity-image">
+      <img [src]="activity.image" [alt]="activity.title" />
+    </div>
+    <div class="activity-content">
+      <div class="row mx-0">
+        <div class="col activity-title">
+          <h3>
+            {{ activity.title }}
+            <mat-icon>chevron_right</mat-icon>
+          </h3>
+        </div>
+      </div>
+      <div class="row mx-0 my-3">
+        <div class="col">
+          <div class="activity-date">{{ activity.date | date: 'longDate' }}</div>
+          <strong>{{ activity.timeStart }}</strong>
+          <span class="mat-caption text-muted ml-2">{{ activity.timeEnd }}</span>
+        </div>
+        <div class="col text-muted">
+          <mat-icon>schedule</mat-icon>
+          {{ activity.duration }} min.
+        </div>
+      </div>
+      <div class="row mx-0 my-3">
+        <div class="col">
+          <div class="mat-caption text-muted">Club</div>
+          {{ activity.club }}
+        </div>
+        <div class="col">
+          <div class="mat-caption text-muted">Sala</div>
+          {{ activity.room }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
@@ -12,10 +13,14 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { CardNextActivityComponent } from './components/card-next-activity/card-next-activity.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    CardNextActivityComponent,
+  ],
   imports: [
+    CommonModule,
     ReactiveFormsModule,
     MatButtonModule,
     MatCardModule,
@@ -44,6 +49,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatSortModule,
     MatTableModule,
     MatTooltipModule,
+    CardNextActivityComponent,
   ],
 })
 export class SharedModule {}
