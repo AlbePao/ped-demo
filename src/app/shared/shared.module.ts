@@ -14,11 +14,10 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { CardNextActivityComponent } from './components/card-next-activity/card-next-activity.component';
+import { CardPendingActivityComponent } from './components/card-pending-activity/card-pending-activity.component';
 
 @NgModule({
-  declarations: [
-    CardNextActivityComponent,
-  ],
+  declarations: [CardNextActivityComponent, CardPendingActivityComponent],
   imports: [
     CommonModule,
     ReactiveFormsModule,
@@ -50,6 +49,7 @@ import { CardNextActivityComponent } from './components/card-next-activity/card-
     MatTableModule,
     MatTooltipModule,
     CardNextActivityComponent,
+    CardPendingActivityComponent,
   ],
 })
 export class SharedModule {}
