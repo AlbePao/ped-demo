@@ -1,0 +1,33 @@
+@import 'variables';
+
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap-grid';
+
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$ped-demo-primary: mat-palette($mat-indigo);
+$ped-demo-accent: mat-palette($mat-pink, A200, A100, A400);
+$ped-demo-warn: mat-palette($mat-red);
+
+$ped-demo-theme: mat-light-theme(
+  (
+    color: (
+      primary: $ped-demo-primary,
+      accent: $ped-demo-accent,
+      warn: $ped-demo-warn,
+    ),
+  )
+);
+
+@include angular-material-theme($ped-demo-theme);
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
