@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Activity } from '@app/shared/interfaces/activity';
+import { Activity, ActivityStatus } from '@app/shared/interfaces/activity';
 import { Observable, of } from 'rxjs';
 
 @Injectable({
@@ -18,7 +18,8 @@ export class ActivitiesService {
         timeStart: '11:10',
         timeEnd: '11:40',
         duration: '30',
-        status: 'accepted',
+        category: '',
+        status: ActivityStatus.accepted,
         club: 'Ravizza',
         room: 'Conscious',
       },
@@ -30,7 +31,8 @@ export class ActivitiesService {
         timeStart: '11:10',
         timeEnd: '11:40',
         duration: '30',
-        status: 'accepted',
+        category: '',
+        status: ActivityStatus.accepted,
         club: 'Ravizza',
         room: 'Conscious',
       },
@@ -42,7 +44,8 @@ export class ActivitiesService {
         timeStart: '11:10',
         timeEnd: '11:40',
         duration: '30',
-        status: 'pending',
+        category: '',
+        status: ActivityStatus.pending,
         peopleBefore: 2,
         club: 'Ravizza',
         room: 'Conscious',

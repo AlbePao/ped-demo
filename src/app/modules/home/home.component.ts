@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ActivitiesService } from '@app/core/services/activities.service';
 import { AnnouncementsService } from '@app/core/services/announcements.service';
 import { NewsService } from '@app/core/services/news.service';
+import { ActivityStatus } from '@app/shared/interfaces/activity';
 import { map, share, shareReplay } from 'rxjs/operators';
 
 @Component({
@@ -15,11 +16,11 @@ export class HomeComponent {
   news$ = this.newsService.getNews();
 
   nextActivities$ = this.activities$.pipe(
-    map((activities) => activities.filter((activity) => activity.status === 'accepted')),
+    map((activities) => activities.filter((activity) => activity.status === ActivityStatus.accepted)),
   );
 
   pendingActivities$ = this.activities$.pipe(
-    map((activities) => activities.filter((activity) => activity.status === 'pending')),
+    map((activities) => activities.filter((activity) => activity.status === ActivityStatus.pending)),
     shareReplay(),
   );
 

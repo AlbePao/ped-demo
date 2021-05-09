@@ -1,4 +1,8 @@
-export type ActivityStatus = 'accepted' | 'pending';
+export enum ActivityStatus {
+  open,
+  accepted,
+  pending,
+}
 
 export interface Activity {
   id: number;
