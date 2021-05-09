@@ -1,0 +1,11 @@
+<mat-accordion *ngFor="let announcement of announcements">
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>{{ announcement.title }}</mat-panel-title>
+      <mat-panel-description>
+        {{ announcement.date | date: 'shortDate' }}
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <p>{{ announcement.description }}</p>
+  </mat-expansion-panel>
+</mat-accordion>
