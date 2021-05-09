@@ -12,6 +12,7 @@ export interface Activity {
   timeStart: string;
   timeEnd: string;
   duration: string;
+  category: string;
   status: ActivityStatus;
   peopleBefore?: number;
   club: string;
