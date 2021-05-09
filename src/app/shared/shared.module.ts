@@ -14,12 +14,12 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { MatTooltipModule } from '@angular/material/tooltip';
-import { AnnouncementComponent } from './components/announcement/announcement.component';
+import { AnnouncementsComponent } from './components/announcements/announcements.component';
 import { CardNextActivitiesComponent } from './components/card-next-activities/card-next-activities.component';
 import { CardPendingActivitiesComponent } from './components/card-pending-activities/card-pending-activities.component';
 
 @NgModule({
-  declarations: [AnnouncementComponent, CardNextActivitiesComponent, CardPendingActivitiesComponent],
+  declarations: [AnnouncementsComponent, CardNextActivitiesComponent, CardPendingActivitiesComponent],
   imports: [
     CommonModule,
     ReactiveFormsModule,
@@ -52,7 +52,7 @@ import { CardPendingActivitiesComponent } from './components/card-pending-activi
     MatSortModule,
     MatTableModule,
     MatTooltipModule,
-    AnnouncementComponent,
+    AnnouncementsComponent,
     CardNextActivitiesComponent,
     CardPendingActivitiesComponent,
   ],
