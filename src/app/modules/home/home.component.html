@@ -1,1 +1,44 @@
-<p>home works!</p>
+<div class="home-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 activities-next">
+        <h2 class="home-title">
+          <mat-icon>event</mat-icon>
+          Le tue prossime attività
+        </h2>
+        <app-card-next-activities [activities]="nextActivities$ | async"></app-card-next-activities>
+      </div>
+      <div class="col-12 col-md-6 activities-pending">
+        <h2 class="home-title">Hai {{ (pendingActivities$ | async)?.length || 0 }} attività in attesa</h2>
+        <app-card-pending-activities
+          [activities]="pendingActivities$ | async"
+          (cancel)="cancelBooking($event)"
+        ></app-card-pending-activities>
+      </div>
+    </div>
+
+    <div class="announcement-bg my-5 d-none d-md-block">
+      <div class="banner-box">
+        <div class="info-box">
+          <p class="info-text mb-3">
+            Allenati con noi all'Arco della Pace<br />
+            Tutte le domeniche
+          </p>
+          <a mat-flat-button color="announcement" class="px-4 py-1" href="#">Scopri di più</a>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="home-title blue-title"><mat-icon>notifications</mat-icon> Avvisi</h2>
+    <app-announcements [announcements]="announcements$ | async"></app-announcements>
+
+    <div class="announcement-bg my-5 d-none d-md-block">
+      <div class="banner-box">
+        <span class="download-app-text">Scarica ora la nostra app</span>
+      </div>
+    </div>
+
+    <h2 class="home-title blue-title"><mat-icon>fiber_manual_record</mat-icon> Magazine</h2>
+    <app-news [news]="news$ | async"></app-news>
+  </div>
+</div>
