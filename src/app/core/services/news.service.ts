@@ -13,7 +13,7 @@ export class NewsService {
       {
         id: 1,
         title: 'Gli eventi di dicembre e gennaio',
-        image: 'https://picsum.photos/100',
+        image: 'https://picsum.photos/300/200',
         date: new Date().toISOString().substring(0, 10),
         description:
           'Nullam id viverra neque, quis fermentum lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ut dui vitae odio gravida pretium. Praesent iaculis ac ante id fringilla. Phasellus nec massa eget purus gravida hendrerit. Maecenas consectetur sit amet justo vel luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce tristique eu lorem quis faucibus. Vestibulum quis nunc auctor, dictum dolor sit amet, lacinia neque. Sed commodo a tortor eget pretium. Curabitur sed tellus tristique, semper turpis interdum, elementum velit. Aenean pretium nunc sed neque dapibus, id gravida lacus accumsan.',
@@ -21,7 +21,7 @@ export class NewsService {
       {
         id: 2,
         title: 'Gli eventi di dicembre e gennaio',
-        image: 'https://picsum.photos/100',
+        image: 'https://picsum.photos/300/200',
         date: new Date().toISOString().substring(0, 10),
         description:
           'Nullam id viverra neque, quis fermentum lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ut dui vitae odio gravida pretium. Praesent iaculis ac ante id fringilla. Phasellus nec massa eget purus gravida hendrerit. Maecenas consectetur sit amet justo vel luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce tristique eu lorem quis faucibus. Vestibulum quis nunc auctor, dictum dolor sit amet, lacinia neque. Sed commodo a tortor eget pretium. Curabitur sed tellus tristique, semper turpis interdum, elementum velit. Aenean pretium nunc sed neque dapibus, id gravida lacus accumsan.',
@@ -29,7 +29,7 @@ export class NewsService {
       {
         id: 3,
         title: 'Gli eventi di dicembre e gennaio',
-        image: 'https://picsum.photos/100',
+        image: 'https://picsum.photos/300/200',
         date: new Date().toISOString().substring(0, 10),
         description:
           'Nullam id viverra neque, quis fermentum lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ut dui vitae odio gravida pretium. Praesent iaculis ac ante id fringilla. Phasellus nec massa eget purus gravida hendrerit. Maecenas consectetur sit amet justo vel luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce tristique eu lorem quis faucibus. Vestibulum quis nunc auctor, dictum dolor sit amet, lacinia neque. Sed commodo a tortor eget pretium. Curabitur sed tellus tristique, semper turpis interdum, elementum velit. Aenean pretium nunc sed neque dapibus, id gravida lacus accumsan.',
@@ -37,7 +37,7 @@ export class NewsService {
       {
         id: 4,
         title: 'Gli eventi di dicembre e gennaio',
-        image: 'https://picsum.photos/100',
+        image: 'https://picsum.photos/300/200',
         date: new Date().toISOString().substring(0, 10),
         description:
           'Nullam id viverra neque, quis fermentum lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ut dui vitae odio gravida pretium. Praesent iaculis ac ante id fringilla. Phasellus nec massa eget purus gravida hendrerit. Maecenas consectetur sit amet justo vel luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce tristique eu lorem quis faucibus. Vestibulum quis nunc auctor, dictum dolor sit amet, lacinia neque. Sed commodo a tortor eget pretium. Curabitur sed tellus tristique, semper turpis interdum, elementum velit. Aenean pretium nunc sed neque dapibus, id gravida lacus accumsan.',
@@ -45,7 +45,7 @@ export class NewsService {
       {
         id: 5,
         title: 'Gli eventi di dicembre e gennaio',
-        image: 'https://picsum.photos/100',
+        image: 'https://picsum.photos/300/200',
         date: new Date().toISOString().substring(0, 10),
         description:
           'Nullam id viverra neque, quis fermentum lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ut dui vitae odio gravida pretium. Praesent iaculis ac ante id fringilla. Phasellus nec massa eget purus gravida hendrerit. Maecenas consectetur sit amet justo vel luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce tristique eu lorem quis faucibus. Vestibulum quis nunc auctor, dictum dolor sit amet, lacinia neque. Sed commodo a tortor eget pretium. Curabitur sed tellus tristique, semper turpis interdum, elementum velit. Aenean pretium nunc sed neque dapibus, id gravida lacus accumsan.',
@@ -53,7 +53,7 @@ export class NewsService {
       {
         id: 6,
         title: 'Gli eventi di dicembre e gennaio',
-        image: 'https://picsum.photos/100',
+        image: 'https://picsum.photos/300/200',
         date: new Date().toISOString().substring(0, 10),
         description:
           'Nullam id viverra neque, quis fermentum lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ut dui vitae odio gravida pretium. Praesent iaculis ac ante id fringilla. Phasellus nec massa eget purus gravida hendrerit. Maecenas consectetur sit amet justo vel luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce tristique eu lorem quis faucibus. Vestibulum quis nunc auctor, dictum dolor sit amet, lacinia neque. Sed commodo a tortor eget pretium. Curabitur sed tellus tristique, semper turpis interdum, elementum velit. Aenean pretium nunc sed neque dapibus, id gravida lacus accumsan.',
@@ -61,7 +61,7 @@ export class NewsService {
       {
         id: 7,
         title: 'Gli eventi di dicembre e gennaio',
-        image: 'https://picsum.photos/100',
+        image: 'https://picsum.photos/300/200',
         date: new Date().toISOString().substring(0, 10),
         description:
           'Nullam id viverra neque, quis fermentum lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ut dui vitae odio gravida pretium. Praesent iaculis ac ante id fringilla. Phasellus nec massa eget purus gravida hendrerit. Maecenas consectetur sit amet justo vel luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce tristique eu lorem quis faucibus. Vestibulum quis nunc auctor, dictum dolor sit amet, lacinia neque. Sed commodo a tortor eget pretium. Curabitur sed tellus tristique, semper turpis interdum, elementum velit. Aenean pretium nunc sed neque dapibus, id gravida lacus accumsan.',
@@ -69,7 +69,7 @@ export class NewsService {
       {
         id: 8,
         title: 'Gli eventi di dicembre e gennaio',
-        image: 'https://picsum.photos/100',
+        image: 'https://picsum.photos/300/200',
         date: new Date().toISOString().substring(0, 10),
         description:
           'Nullam id viverra neque, quis fermentum lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ut dui vitae odio gravida pretium. Praesent iaculis ac ante id fringilla. Phasellus nec massa eget purus gravida hendrerit. Maecenas consectetur sit amet justo vel luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce tristique eu lorem quis faucibus. Vestibulum quis nunc auctor, dictum dolor sit amet, lacinia neque. Sed commodo a tortor eget pretium. Curabitur sed tellus tristique, semper turpis interdum, elementum velit. Aenean pretium nunc sed neque dapibus, id gravida lacus accumsan.',
@@ -77,7 +77,7 @@ export class NewsService {
       {
         id: 9,
         title: 'Gli eventi di dicembre e gennaio',
-        image: 'https://picsum.photos/100',
+        image: 'https://picsum.photos/300/200',
         date: new Date().toISOString().substring(0, 10),
         description:
           'Nullam id viverra neque, quis fermentum lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ut dui vitae odio gravida pretium. Praesent iaculis ac ante id fringilla. Phasellus nec massa eget purus gravida hendrerit. Maecenas consectetur sit amet justo vel luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce tristique eu lorem quis faucibus. Vestibulum quis nunc auctor, dictum dolor sit amet, lacinia neque. Sed commodo a tortor eget pretium. Curabitur sed tellus tristique, semper turpis interdum, elementum velit. Aenean pretium nunc sed neque dapibus, id gravida lacus accumsan.',
@@ -85,7 +85,7 @@ export class NewsService {
       {
         id: 10,
         title: 'Gli eventi di dicembre e gennaio',
-        image: 'https://picsum.photos/100',
+        image: 'https://picsum.photos/300/200',
         date: new Date().toISOString().substring(0, 10),
         description:
           'Nullam id viverra neque, quis fermentum lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras ut dui vitae odio gravida pretium. Praesent iaculis ac ante id fringilla. Phasellus nec massa eget purus gravida hendrerit. Maecenas consectetur sit amet justo vel luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce tristique eu lorem quis faucibus. Vestibulum quis nunc auctor, dictum dolor sit amet, lacinia neque. Sed commodo a tortor eget pretium. Curabitur sed tellus tristique, semper turpis interdum, elementum velit. Aenean pretium nunc sed neque dapibus, id gravida lacus accumsan.',
