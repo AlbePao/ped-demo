@@ -1,0 +1,13 @@
+<div class="news-container">
+  <mat-card class="news-card mx-2 mat-elevation-z6" *ngFor="let entry of news">
+    <img mat-card-image [src]="entry.image" [alt]="entry.title" />
+    <div class="go-badge">
+      <mat-icon>chevron_right</mat-icon>
+    </div>
+    <mat-card-content>
+      <h4 class="news-title">{{ entry.title }}</h4>
+      <p>{{ entry.description.substring(0, 47) }}...</p>
+      <div class="news-date mat-caption">{{ entry.date | date: 'M/d/y' }}</div>
+    </mat-card-content>
+  </mat-card>
+</div>

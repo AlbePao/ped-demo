@@ -17,9 +17,10 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { AnnouncementsComponent } from './components/announcements/announcements.component';
 import { CardNextActivitiesComponent } from './components/card-next-activities/card-next-activities.component';
 import { CardPendingActivitiesComponent } from './components/card-pending-activities/card-pending-activities.component';
+import { NewsComponent } from './components/news/news.component';
 
 @NgModule({
-  declarations: [AnnouncementsComponent, CardNextActivitiesComponent, CardPendingActivitiesComponent],
+  declarations: [AnnouncementsComponent, CardNextActivitiesComponent, CardPendingActivitiesComponent, NewsComponent],
   imports: [
     CommonModule,
     ReactiveFormsModule,
@@ -55,6 +56,7 @@ import { CardPendingActivitiesComponent } from './components/card-pending-activi
     AnnouncementsComponent,
     CardNextActivitiesComponent,
     CardPendingActivitiesComponent,
+    NewsComponent,
   ],
 })
 export class SharedModule {}
