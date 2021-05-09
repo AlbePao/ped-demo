@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { CardPendingActivityComponent } from './card-pending-activity.component';
+import { CardPendingActivitiesComponent } from './card-pending-activities.component';
 
 describe('CardPendingActivityComponent', () => {
-  let component: CardPendingActivityComponent;
-  let fixture: ComponentFixture<CardPendingActivityComponent>;
+  let component: CardPendingActivitiesComponent;
+  let fixture: ComponentFixture<CardPendingActivitiesComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [CardPendingActivityComponent],
+      declarations: [CardPendingActivitiesComponent],
     }).compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CardPendingActivityComponent);
+    fixture = TestBed.createComponent(CardPendingActivitiesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
