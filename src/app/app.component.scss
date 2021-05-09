@@ -1,0 +1,26 @@
+@import 'variables';
+
+.toolbar-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  @media (max-width: $toolbar-breakpoint) {
+    justify-content: space-around;
+  }
+}
+
+.toolbar-icon {
+  color: #767676;
+}
+
+.active-icon {
+  color: #003068;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
