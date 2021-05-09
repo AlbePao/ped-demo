@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { CardNextActivityComponent } from './card-next-activity.component';
 
 describe('CardNextActivityComponent', () => {
@@ -8,9 +7,8 @@ describe('CardNextActivityComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CardNextActivityComponent ]
-    })
-    .compileComponents();
+      declarations: [CardNextActivityComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {
