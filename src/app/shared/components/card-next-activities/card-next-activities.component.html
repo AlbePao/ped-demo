@@ -1,4 +1,4 @@
-<div class="next-activity-card mat-elevation-z6 overflow-hidden">
+<div class="next-activity-card mat-elevation-z6 overflow-hidden" *ngFor="let activity of activities">
   <div class="activity-container">
     <div class="activity-image">
       <img [src]="activity.image" [alt]="activity.title" />

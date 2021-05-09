@@ -15,11 +15,11 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { AnnouncementComponent } from './components/announcement/announcement.component';
-import { CardNextActivityComponent } from './components/card-next-activity/card-next-activity.component';
+import { CardNextActivitiesComponent } from './components/card-next-activities/card-next-activities.component';
 import { CardPendingActivityComponent } from './components/card-pending-activity/card-pending-activity.component';
 
 @NgModule({
-  declarations: [AnnouncementComponent, CardNextActivityComponent, CardPendingActivityComponent],
+  declarations: [AnnouncementComponent, CardNextActivitiesComponent, CardPendingActivityComponent],
   imports: [
     CommonModule,
     ReactiveFormsModule,
@@ -53,7 +53,7 @@ import { CardPendingActivityComponent } from './components/card-pending-activity
     MatTableModule,
     MatTooltipModule,
     AnnouncementComponent,
-    CardNextActivityComponent,
+    CardNextActivitiesComponent,
     CardPendingActivityComponent,
   ],
 })
